@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(247, 178, 129);
+
+    
+}
+
+h1.titol{
+    color: rgb(134, 0, 0);
+    text-align: center;
+}
+
+img.libro{
+    height: 174px;
+}
+
+div.Elcafe{
+    position: relative;
+    left: 650px;
+}
+
+div.contacto{
+    position: relative;
+    left: 1250px;
+}
+
+div.text-carta{
+    color: brown;
+}
+
+header.carta-header{
+    text-align: center;
+    color: brown;
+}
+
+div.color-cafe{
+    color: brown;
+}
+
+header.cafe-header{
+    text-align: center;
+    color: brown;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-info, .contact-form, .contact-map {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.contact-info h2, .contact-form h2, .contact-map h2 {
+    color: #333;
+}
+
+.contact-info p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #333;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact-form button:hover {
+    background-color: #FFD700;
+}
+
+.contact-map .map-placeholder {
+    height: 300px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    color: #666;
+    border-radius: 8px;
+}
+
+header.contacto-header{
+    color: brown;
+    text-align: center;
+}
